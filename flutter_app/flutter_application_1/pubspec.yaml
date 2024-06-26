@@ -1,0 +1,24 @@
+name: flutter_application_1
+description: A new Flutter project
+
+# Añadir esta sección:
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_dotenv: ^5.0.2 # Para manejar variables de entorno si es necesario
+
+  # Las otras dependencias que puedas tener
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Otras configuraciones que puedas tener
